@@ -1,0 +1,91 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #dbdbdb;
+}
+body main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body main .main-cont {
+  width: 80%;
+}
+body main .main-cont .heading {
+  text-align: center;
+  margin-bottom: 50px;
+}
+body main .main-cont .heading h1 {
+  font-size: 50px;
+}
+body main .main-cont .heading h5 {
+  font-size: 20px;
+  color: rgb(122, 122, 122);
+}
+body main .main-cont .main {
+  display: flex;
+  justify-content: space-between;
+}
+body main .main-cont .main .image {
+  width: 47%;
+  border-radius: 20px;
+  overflow: hidden;
+}
+body main .main-cont .main .image img {
+  width: 100%;
+  height: 100%;
+}
+body main .main-cont .main .tab-cont {
+  background-color: #fff;
+  width: 47%;
+  overflow: hidden;
+  border-radius: 20px;
+}
+body main .main-cont .main .tab-cont ul {
+  background-color: rgb(65, 65, 65);
+  display: flex;
+}
+body main .main-cont .main .tab-cont ul li {
+  display: flex;
+  width: 33.33%;
+}
+body main .main-cont .main .tab-cont ul li button {
+  width: 100%;
+  border: 0;
+  padding: 15px 0;
+  letter-spacing: 2px;
+  font-size: 20px;
+  transition: 0.5s ease;
+}
+body main .main-cont .main .tab-cont ul li button:hover {
+  background-color: rgb(193, 193, 248);
+  color: #fff;
+}
+body main .main-cont .main .tab-cont ul li .focused {
+  background-color: #fff;
+}
+body main .main-cont .main .tab-cont ul li .focused:hover {
+  color: #000;
+  background-color: #fff;
+}
+body main .main-cont .main .tab-cont .contents {
+  padding: 30px;
+  margin-top: 30px;
+}
+body main .main-cont .main .tab-cont .contents h5 {
+  letter-spacing: 2px;
+  font-size: 18px;
+}
+body main .main-cont .main .tab-cont .contents .texts {
+  line-height: 1.5;
+  color: grey;
+}
+@media (max-width: 756px) {
+  body .main {
+    display: none;
+  }
+}/*# sourceMappingURL=style.css.map */
